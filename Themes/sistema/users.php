@@ -175,4 +175,6 @@
 		<div class="espaco-min"></div>
 	</section>
 	<div class="clear"></div>
+
+	<script class="acessibility" src="https://cdn.userway.org/widget.js" data-account="ESCfAQjYvC"></script>
 </main>

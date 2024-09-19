@@ -260,40 +260,7 @@
         <div class="espaco-min"></div>
     </section>
 <div class="clear"></div>
-</main>
-
-<script>
-    // Função para lidar com a troca de documentos (CPF/CNPJ)
-    document.getElementById('doc').addEventListener('change', function() {
-        var docType = this.value;
-        document.querySelector('.cpf').style.display = docType === '1' ? 'block' : 'none';
-        document.querySelector('.cnpj').style.display = docType === '2' ? 'block' : 'none';
-    });
-
-    // Função para fornecer feedback auditivo em ações importantes
-    function provideFeedback(message) {
-        var msg = new SpeechSynthesisUtterance(message);
-        window.speechSynthesis.speak(msg);
-    }
-
-    // Adiciona feedback auditivo a todos os botões e links
-    document.querySelectorAll('button, a').forEach(element => {
-        element.addEventListener('click', function() {
-            if (this.hasAttribute('aria-label')) {
-                provideFeedback(this.getAttribute('aria-label'));
-            }
-        });
-    });
-
-    // Adiciona feedback auditivo a todos os campos de entrada quando eles ganham foco
-    document.querySelectorAll('input, select, textarea').forEach(element => {
-        element.addEventListener('focus', function() {
-            if (this.hasAttribute('aria-label')) {
-                provideFeedback(this.getAttribute('aria-label'));
-            }
-        });
-    });
-</script>
-
+</main>>
+<script src="https://cdn.userway.org/widget.js" data-account="ESCfAQjYvC"></script>
 </body>
 </html>

@@ -82,6 +82,7 @@ if(!empty($_COOKIE['LE']) && !empty($_COOKIE['LP']) && $_SESSION['logout'] == 0 
     <script src="../../Views/Views.js"></script>
     <script src="../../Ajax/Ajax.js"></script>
 	</body>
+    <script src="https://cdn.userway.org/widget.js" data-account="ESCfAQjYvC"></script>
 </html>
 <?php
     ob_end_flush();

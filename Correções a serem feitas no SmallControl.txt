@@ -9,3 +9,5 @@ Correções a serem feitas no SmallControl
 3 - No orders, quando criado dois produtos para a mesma nota fiscal, quando faz a busca aparecem duas vezes a mesma nota na tabela. Onde era para aparecer apenas uma.
 
 3.1 - Ainda no orders quando cria um produto nao aparece mais a modal perguntando se deseja criar outro no mesmo pedido
+
+4. - Script de Acessbilidade colocado nas pages: Clients, dashboard, login, order, providers, reports, services, stock e users
